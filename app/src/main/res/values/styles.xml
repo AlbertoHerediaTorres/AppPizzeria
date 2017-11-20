@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMio</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EstiloTextView">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EstiloBoton">
+        <item name="android:background">@drawable/boton_estilos</item>
+        <item name="android:shadowColor">#d40808</item>
+        <item name="android:shadowDx">18</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="EstiloFondo">
+    <item name="android:background">@drawable/fondo</item>
+    </style>
+</resources>

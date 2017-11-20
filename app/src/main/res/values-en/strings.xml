@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AlbertoPizzas</string>
+    <string name="ma_tv_login">User</string>
+    <string name="ma_tv_password">Password</string>
+    <string name="ma_bt_acceder">Go to</string>
+
+
+    <string name="mpa_btn_pedir">Ask</string>
+    <string name="mpa_btn_salir">Exit</string>
+    <string name="mpa_btn_configurar">Configuration</string>
+
+    <string name="ca_tv_idioma">Language</string>
+
+    <string name="pea_btn_recoger">Pick up</string>
+    <string name="pea_btn_domicilio">At home</string>
+
+    <string name="da_tv_telefono">Phone</string>
+    <string name="da_tv_direccion">Direction</string>
+    <string name="da_btn_siguiente">Next</string>
+
+    <string name="pia_btn_propia">Own Pizza</string>
+    <string name="pia_btn_terminar">Finish</string>
+    <string name="pia_tv_personalizar">Customize your pizza!</string>
+    <string name="pia_tv_tamano">Size</string>
+    <string name="pia_rb_peque">Little</string>
+    <string name="pia_rb_medi">Median</string>
+    <string name="pia_rb_fami">Family</string>
+
+    <string name="pra_btn_especialidad">Specialties</string>
+    <string name="pra_tv_personalizar">Our specialties</string>
+
+
+    <string name="ta_tv_precio">Total price</string>
+    <string name="ta_btn_terminar">FINISH</string>
+</resources>

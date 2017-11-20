@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#3525"
+        tools:context="es.albertoheredia.apppizzeria.MainActivity">
+
+        <EditText
+            android:id="@+id/ma_et_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnAcceder"
+            android:layout_alignLeft="@+id/tVDireccion"
+            android:layout_marginBottom="51dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="204dp"
+            android:layout_alignStart="@+id/tVDireccion" />
+
+    <Button
+        android:id="@+id/btnAcceder"
+        style="@style/EstiloBoton"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="@string/ma_bt_acceder"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <TextView
+        android:id="@+id/tVDireccion"
+        style="@style/EstiloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ma_et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="@string/ma_tv_password"
+        app:layout_constraintBottom_toTopOf="@+id/ma_et_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_et_usuario" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/EstiloTextView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ma_et_usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="@string/ma_tv_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <EditText
+        android:id="@+id/ma_et_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tVDireccion"
+        android:layout_alignLeft="@+id/tVDireccion"
+        android:layout_alignStart="@+id/tVDireccion"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="98dp" />
+       </RelativeLayout>
+

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+tools:context="es.albertoheredia.apppizzeria.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnTerminar"
+        style="@style/EstiloBoton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/btnEspecialidad"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnEspecialidad"
+        android:layout_marginBottom="16dp"
+        android:text="@string/pia_btn_terminar"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnEspecialidad"
+        style="@style/EstiloBoton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/tVPersonalizar"
+        android:layout_alignRight="@+id/tVPersonalizar"
+        android:layout_below="@+id/tVPersonalizar"
+        android:layout_marginTop="12dp"
+        android:text="@string/pra_btn_especialidad"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tVPersonalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tVTamano"
+        android:layout_toEndOf="@+id/cBChampinone"
+        android:layout_toRightOf="@+id/cBChampinone"
+        android:text="@string/pra_tv_personalizar"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tVTamano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/pia_tv_tamano"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rGTamano"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tVTamano"
+        android:layout_alignStart="@+id/tVTamano"
+        android:layout_below="@+id/tVTamano"
+        android:layout_marginTop="18dp">
+
+        <RadioButton
+            android:id="@+id/rBPeque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pia_rb_peque"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rBMedi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pia_rb_medi"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rBFami"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/pia_rb_fami"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cBPimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rGTamano"
+        android:layout_marginTop="29dp"
+        android:text="Pimiento"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBChampinone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cBPimiento"
+        android:layout_alignBottom="@+id/cBPimiento"
+        android:layout_toEndOf="@+id/cBPimiento"
+        android:layout_toRightOf="@+id/cBPimiento"
+        android:text="Champiñones"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBPollo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cBPimiento"
+        android:layout_marginTop="16dp"
+        android:text="Pollo"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBBacon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cBPollo"
+        android:layout_alignBottom="@+id/cBPollo"
+        android:layout_alignLeft="@+id/cBChampinone"
+        android:layout_alignStart="@+id/cBChampinone"
+        android:text="Bacon"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBCebolla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cBPollo"
+        android:layout_marginTop="22dp"
+        android:text="Cebolla"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBQueso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cBCebolla"
+        android:layout_alignBottom="@+id/cBCebolla"
+        android:layout_toEndOf="@+id/tVTamano"
+        android:layout_toRightOf="@+id/tVTamano"
+        android:text="Queso"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBPina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cBPicada"
+        android:layout_alignBottom="@+id/cBPicada"
+        android:layout_alignEnd="@+id/cBAtun"
+        android:layout_alignRight="@+id/cBAtun"
+        android:text="Piña"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBPicada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cBQueso"
+        android:layout_alignStart="@+id/cBQueso"
+        android:layout_below="@+id/cBQueso"
+        android:layout_marginTop="16dp"
+        android:text="C. Picada"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBTomate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnTerminar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Tomate"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBAtun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cBTomate"
+        android:layout_marginTop="21dp"
+        android:text="Atún"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cBTernera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cBTomate"
+        android:layout_alignBottom="@+id/cBTomate"
+        android:layout_alignLeft="@+id/cBPicada"
+        android:layout_alignStart="@+id/cBPicada"
+        android:text="Ternera"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbPeperonni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cBAtun"
+        android:layout_alignBottom="@+id/cBAtun"
+        android:layout_alignEnd="@+id/cBPicada"
+        android:layout_alignRight="@+id/cBPicada"
+        android:text="Peperonni"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AlbertoPizzas</string>
+    <string name="ma_tv_login">Usuario</string>
+    <string name="ma_tv_password">Contraseña</string>
+    <string name="ma_bt_acceder">Acceder</string>
+
+    <string name="mpa_btn_pedir">Pedir</string>
+    <string name="mpa_btn_salir">Salir</string>
+    <string name="mpa_btn_configurar">Configurar</string>
+
+    <string name="ca_tv_idioma">Idioma</string>
+
+    <string name="pea_btn_recoger">Recoger</string>
+    <string name="pea_btn_domicilio">A domicilio</string>
+
+    <string name="da_tv_telefono">Teléfono</string>
+    <string name="da_tv_direccion">Dirección</string>
+    <string name="da_btn_siguiente">Siguiente</string>
+
+    <string name="pia_btn_propia">Pizza propia</string>
+    <string name="pia_btn_terminar">Terminar</string>
+    <string name="pia_tv_personalizar">¡Personaliza tu pizza!</string>
+    <string name="pia_tv_tamano">Tamaño</string>
+    <string name="pia_rb_peque">Pequeña</string>
+    <string name="pia_rb_medi">Mediana</string>
+    <string name="pia_rb_fami">Familiar</string>
+
+    <string name="pra_btn_especialidad">Especialidades</string>
+    <string name="pra_tv_personalizar">Nuestras especiales</string>
+
+
+    <string name="ta_tv_precio">Precio total</string>
+    <string name="ta_btn_terminar">Terminar pedido</string>
+</resources>
